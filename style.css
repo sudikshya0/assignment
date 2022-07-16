@@ -1,0 +1,95 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(238, 221, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+
+    border-radius: 10px;
+    background-color: white;
+}
+/*for display*/
+.main__display {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+}
+
+.main__display__digit {
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    padding: 3px;
+    border: none;
+    background:none;
+
+}
+.main__display__back{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.back__image {
+    width: 40px;
+    height: 40px;
+    
+}
+
+/* for keypad*/
+.main__key {
+    width: 390px;
+    height: 400px;
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: rgb(232, 232, 232);
+}
+
+.main__key1,
+.main__key2,
+.main__key3,
+.main__key4,
+.main__key5,
+.main__key6,
+.main__key7,
+.main__key8,
+.main__key9,
+.main__keyash,
+.main__key0,
+.main__keyhash {
+    width: 125px;
+    height: 90px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
